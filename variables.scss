@@ -1,0 +1,70 @@
+$smallest-size:             4px;
+$smaller-size:              10px;
+$small-size:                12px;
+$normal-size:               14px;
+$large-size:                16px;
+$larger-size:               20px;
+$largest-size:              22px;
+$huge-size:                 24px;
+$huger-size:                26px;
+$hugest-size:               28px;
+
+$content-header-height:     60px;
+
+$black-color:               #000000;
+$white-color:               #ffffff;
+
+$dark-color:                #191A1E;
+$text-color:                $--color-text-primary;
+$grey-text-color:           #565656;
+$light-text-color:          #91919A;
+$lighter-dark-color:        mix($white-color, $--color-text-primary, 40%);
+
+$grey-color:                mix($white-color, $--color-text-primary, 5%);
+$light-grey-color:          mix($white-color, $grey-color, 40%);
+$lighter-grey-color:        mix($white-color, $grey-color, 60%);
+$lightest-grey-color:       mix($white-color, $grey-color, 80%);
+
+$light-color:               #e9e9e9;
+$lighter-color:             #e9e9e9;
+
+$primary-color:             $--color-primary;
+$lighter-primary-color:     rgba($primary-color, 0.3);
+$primary-hover-color:     #3C61B4;
+
+$success-color:             $--color-success;
+$warn-color:                $--color-warning;
+$danger-color:              $--color-danger;
+$info-color:                $--color-info;
+
+$aside-color:             #434852;
+
+$smaller-z-index:           9;
+$small-z-index:             10;
+
+$large-z-index:             99;
+$larger-z-index:            100;
+
+$huge-z-index:              999;
+$huger-z-index:             1000;
+
+
+$border-transition: .2s cubic-bezier(.645,.045,.355,1);
+
+$color-list: white $white-color, black $black-color,
+             primary $primary-color, primary-hover $primary-hover-color,
+             success $success-color, warn $warn-color, danger $danger-color, info $info-color,
+             dark $dark-color, lighter-dark $lighter-dark-color,
+             grey $grey-color, light-grey $light-grey-color, lighter-grey $lighter-grey-color,
+             lightest-grey $lightest-grey-color,
+             light $light-color, lighter $lighter-color,
+             light-text $light-text-color;
+
+$size-list: smallest $smallest-size, smaller $smaller-size, small $small-size, 
+            normal $normal-size, 
+            large $large-size, larger $larger-size, largest $largest-size, 
+            huge $huge-size, huger $huger-size, huge $huge-size, hugest $hugest-size;
+
+$z-index-list: smaller $smaller-z-index, small $small-z-index,
+               large $large-z-index, larger $large-z-index,
+               huge $huge-z-index, huger $huger-z-index;
